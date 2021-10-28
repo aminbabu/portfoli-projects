@@ -1,0 +1,52 @@
+#portfolio {
+	background-color: #FFDD99;
+}
+
+.portfolio-content h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-content p {
+	font-size: 1.2rem;
+}
+
+#portfolio .btn {
+	background-color: #17C2A4;
+	padding: 15px 0;
+	width: 320px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+	box-shadow: 0 5px #13ad91;
+	transition: .1s;
+	margin-bottom: 36px;
+}
+
+#portfolio .btn:hover {
+	background-color: #13ad91;
+	box-shadow: 0 5px #108c75;
+}
+
+#portfolio .btn:active {
+	transform: translateY(5px);
+	box-shadow: none;
+}
+
+#portfolio .button {
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	padding: 7px 25px;
+	background-color: #EBC985;
+	border-radius: 5px;
+	margin: 0 3px;
+}
+
+#portfolio .is-checked {
+	background-color: #fff;
+}

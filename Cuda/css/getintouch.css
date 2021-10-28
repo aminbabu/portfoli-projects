@@ -1,0 +1,74 @@
+#get {
+	background-color: #3C5499;
+}
+
+.get-text h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.get-text p {
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+#get .btn {
+	background-color: #30BAE7;
+	padding: 15px 0;
+	width: 320px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	font-weight: 600;
+	box-shadow: 0 5px #299EC5;
+	transition: .1s;
+	margin-bottom: 36px;
+}
+
+#get .btn:hover {
+	background-color: #299EC5;
+	box-shadow: 0 5px #1d7491;
+}
+
+#get .btn:active {
+	transform: translateY(5px);
+	box-shadow: none;
+}
+
+.input-placeholder {
+  	position: relative;
+}
+
+.input-placeholder input,
+.input-placeholder textarea {
+	width: 100%;
+	padding: 15px 0 15px 10px;
+  	color: #fff;
+  	background-color: #273A71;
+  	border-radius: 5px;
+  	border: none;
+  	outline: none;
+  	margin-bottom: 36px;
+}
+
+.input-placeholder input:valid + .placeholder,
+.input-placeholder textarea:valid + .placeholder {
+  	display: none;
+}
+
+.placeholder {
+  	position: absolute;
+  	pointer-events: none;
+  	top: 12px;
+  	left: 15px;
+  	margin: auto;
+  	color: #ccc;
+  	font-size: 1.1rem;
+}
+
+.placeholder span {
+  	color: red;
+}

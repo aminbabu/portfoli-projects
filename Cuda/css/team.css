@@ -1,0 +1,36 @@
+#team {
+	background-color: #E7F1F8;
+}
+
+.team-content h1 {
+	color: #3C4761;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.team-content p{
+	color: #3C4761;
+	font-size: 1.2rem;
+}
+
+#team .profile {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #898989;
+}
+
+#team h4 {
+	color: #3C4761;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#team a {
+	color: #6DCCED;
+	font-weight: 600;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,18 @@
+footer {
+	background: #344B8E;
+	padding: 26px 0;
+}
+
+footer a {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #fff;
+}
+
+footer a:hover {
+	color: #31A4D5;
+}
+
+footer .active {
+	color: #31A4D5;
+}

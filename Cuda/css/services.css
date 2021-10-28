@@ -1,0 +1,26 @@
+#services {
+	background-color: #17C2A4;
+}
+
+#services img {
+	height: 124px;
+	width: auto;
+}
+
+.service-text h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.service-text p {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+#services h4 {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+}

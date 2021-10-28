@@ -1,0 +1,43 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+section {
+	padding: 85px 0 64px;
+}
+
+.line {
+	width: 8.5rem;
+	height: 4px;
+	margin: 10px auto 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.row {
+	margin-top: 5rem;
+}
+
+.social-icons i {
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 50%;
+	background-color: #BDD1DF;
+	line-height: 1.3;
+	width: 2rem;
+	height: 2rem;
+	padding: 5px;
+	margin: 10px 5px;
+	transition: .5s;
+}
+
+.social-icons i:hover {
+	background-color: #a0b3bf;
+	color: #3C4761;
+}
+
+@media only screen and (max-width: 992px) {
+	.navbar-collapse {
+	    background: #470461;
+	    z-index: 999;
+	}
+}
