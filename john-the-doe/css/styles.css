@@ -1,0 +1,171 @@
+:root {
+  /************VARIABLES***********/
+  --primary-color: #00adb5;
+  --secondary-color: #eeeeee;
+  --text-color: #393e46;
+  --background-color: #222831;
+  /************UTILIEIS************/
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'B612', sans-serif;
+  font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+}
+/*
+img {
+  width: 100%;
+  object-fit: cover;
+} */
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/************************MENU ICON************************/
+.menu-icon {
+  position: absolute;
+  top: 2rem;
+  right: 3rem;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: var(--secondary-color);
+  border-radius: 0.2rem;
+  margin: 0.6rem 0;
+  height: 0.3rem;
+  width: 3.2rem;
+}
+
+/*********************HEADER SECTION**********************/
+header {
+  background-color: var(--background-color);
+  box-shadow: 0.2rem 0 0.5rem 0 rgba(0, 0, 0, 0.19),
+    0.4rem 0 2rem 0 rgba(0, 0, 0, 0.3);
+  height: 100%;
+  left: -100%;
+  position: fixed;
+  transition: all 0.5s ease;
+  top: 0;
+  width: 70%;
+  z-index: 999;
+}
+
+header figure {
+  padding: 4rem 0 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+header figure .far {
+  color: var(--text-color);
+  font-size: 12rem;
+}
+
+header .social-links {
+  display: flex;
+  justify-content: center;
+}
+
+header .fab {
+  font-size: 1.8rem;
+  margin: 0 0.8rem;
+}
+
+header .fab:hover {
+  mix-blend-mode: luminosity;
+  color: var(--primary-color);
+}
+
+header h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+  mix-blend-mode: luminosity;
+}
+
+header nav {
+  border-width: 0.1rem 0 0 0;
+  border-style: solid;
+  border-color: var(--text-color);
+  margin: 3rem 0;
+  padding: 5rem 0;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  display: inline-block;
+  letter-spacing: 0.1rem;
+  padding: 1.5rem 0 1.5rem 4rem;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+header nav ul li a:hover:not(.active) {
+  color: var(--secondary-color);
+  background-color: var(--text-color);
+}
+
+.active {
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  font-weight: 700;
+}
+
+/*********************HOME SECTION*********************/
+#home {
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .menu-icon {
+    top: 4rem;
+    right: 5rem;
+  }
+
+  header {
+    width: 36%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .menu-icon {
+    display: none;
+  }
+
+  header {
+    left: 0;
+    width: 26%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    width: 18%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  header {
+    width: 28rem;
+  }
+}
